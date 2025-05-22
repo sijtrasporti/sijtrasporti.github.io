@@ -1,1 +1,1 @@
-// script.js: codice JS completo
+document.getElementById('language').addEventListener('change',e=>alert('Lingua cambiata: '+e.target.value));
