@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SIJ Trasporti Srl</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
   <script defer src="script.js"></script>
 </head>
 <body>
@@ -19,6 +20,12 @@
   </header>
 
   <main class="container">
+    <section class="slideshow">
+      <img src="images/bg1.jpg" class="slide active" />
+      <img src="images/bg2.jpg" class="slide" />
+      <img src="images/bg3.jpg" class="slide" />
+    </section>
+
     <section>
       <h2 id="slogan">Affidabilità, esperienza e dedizione</h2>
       <div class="grid">
@@ -43,6 +50,11 @@
     <section>
       <h2 id="about-title">Chi siamo</h2>
       <p id="about-text">SIJ è un’azienda di Prato specializzata nella logistica integrata...</p>
+      <div class="grid">
+        <img src="images/bg1.jpg" />
+        <img src="images/bg2.jpg" />
+        <img src="images/bg3.jpg" />
+      </div>
     </section>
 
     <section>
@@ -58,11 +70,12 @@
     <section>
       <h2 id="contact-title">Contatti</h2>
       <p>Email: info@sijsrl.it</p>
-      <p>Sede amministrativa e operativa: Via Albert Einstein 10/D, 50013 Campi Bisenzio</p>
-      <p>Sede legale: Via Santa Gonda 30, 59100 Prato</p>
-      <p>Filiale: Via San Morese 30/32, 50041 Calenzano</p>
+      <p>Via Albert Einstein 10/D, Campi Bisenzio</p>
       <p>Telefono: 0553896646</p>
-      <img src="qr-code.png" alt="QR Code" width="120">
+      <iframe src="https://www.google.com/maps?q=Via+Albert+Einstein+10/D+Campi+Bisenzio&output=embed" width="100%" height="300" style="border:0;"></iframe>
+      <div class="qrcode">
+        <img src="qr-code.png" width="120" />
+      </div>
     </section>
   </main>
 
