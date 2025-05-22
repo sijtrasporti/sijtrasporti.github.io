@@ -2,62 +2,64 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SIJ Trasporti Srl</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
   <script defer src="script.js"></script>
 </head>
 <body>
   <header>
-    <h1>SIJ Trasporti Srl</h1>
-    <select id="language" class="lang-select">
-      <option value="it">IT</option>
-      <option value="en">EN</option>
-      <option value="de">DE</option>
-      <option value="zh">中文</option>
-    </select>
+    <nav>
+      <h1>SIJ Trasporti Srl</h1>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Chi siamo</a></li>
+        <li><a href="#services">Servizi</a></li>
+        <li><a href="#contact">Contatti</a></li>
+      </ul>
+      <select id="language" class="lang-select">
+        <option value="it">IT</option>
+        <option value="en">EN</option>
+        <option value="de">DE</option>
+        <option value="zh">中文</option>
+      </select>
+    </nav>
   </header>
 
   <main class="container">
-    <section class="slideshow">
-      <img src="images/bg1.jpg" class="slide active" />
-      <img src="images/bg2.jpg" class="slide" />
-      <img src="images/bg3.jpg" class="slide" />
-    </section>
-
-    <section>
+    <section id="home">
+      <div class="slideshow">
+        <img src="images/slide1.jpg" class="slide active" />
+        <img src="images/slide2.jpg" class="slide" />
+        <img src="images/slide3.jpg" class="slide" />
+      </div>
       <h2 id="slogan">Affidabilità, esperienza e dedizione</h2>
       <div class="grid">
         <div class="card">
-          <img src="icons/logistics.svg" alt="Logistica" />
+          <img src="icons/logistics.png" />
           <h3 id="logistics-title">Logistica</h3>
-          <p id="logistics-desc">SIJ Trasporti fornisce un servizio di logistica interna alle aziende...</p>
+          <p id="logistics-desc">SIJ Trasporti fornisce un servizio di logistica interna...</p>
         </div>
         <div class="card">
-          <img src="icons/transport.svg" alt="Trasporti" />
+          <img src="icons/transport.png" />
           <h3 id="transport-title">Trasporti</h3>
           <p id="transport-desc">L’azienda collabora con colossi nazionali ed internazionali...</p>
         </div>
         <div class="card">
-          <img src="icons/storage.svg" alt="Stoccaggio" />
+          <img src="icons/storage.png" />
           <h3 id="storage-title">Stoccaggio</h3>
-          <p id="storage-desc">Disponiamo di strutture attrezzate per rispondere alle esigenze dei clienti...</p>
+          <p id="storage-desc">Disponiamo di strutture attrezzate...</p>
         </div>
       </div>
     </section>
 
-    <section>
+    <section id="about">
       <h2 id="about-title">Chi siamo</h2>
       <p id="about-text">SIJ è un’azienda di Prato specializzata nella logistica integrata...</p>
-      <div class="grid">
-        <img src="images/bg1.jpg" />
-        <img src="images/bg2.jpg" />
-        <img src="images/bg3.jpg" />
-      </div>
     </section>
 
-    <section>
+    <section id="services">
       <h2 id="services-title">Servizi</h2>
       <div class="grid">
         <div class="card"><h3>Logistica integrata</h3><p>Forniamo un servizio logistico completo...</p></div>
@@ -67,7 +69,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="contact">
       <h2 id="contact-title">Contatti</h2>
       <p>Email: info@sijsrl.it</p>
       <p>Via Albert Einstein 10/D, Campi Bisenzio</p>
