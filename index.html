@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home - SIJ Trasporti</title>
+  <title>SIJ Trasporti</title>
   <link rel="stylesheet" href="styles.css" />
   <script defer src="script.js"></script>
 </head>
@@ -13,21 +13,49 @@
     <img src="images/logo.png" alt="Logo SIJ" class="logo" />
     <nav>
       <ul class="navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">Chi siamo</a></li>
-        <li><a href="services.html">Servizi</a></li>
-        <li><a href="contact.html">Contatti</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Chi siamo</a></li>
+        <li><a href="#services">Servizi</a></li>
+        <li><a href="#contact">Contatti</a></li>
       </ul>
     </nav>
   </header>
+
   <main>
-    <div class="slideshow">
-      <img src="images/slide1.jpg" class="slide active">
-      <img src="images/slide2.jpg" class="slide">
-      <img src="images/slide3.jpg" class="slide">
-    </div>
-    <h1 class="slogan">Affidabilità, esperienza e dedizione</h1>
+    <section id="home">
+      <div class="slideshow">
+        <img src="images/slide1.jpg" class="slide active" />
+        <img src="images/slide2.jpg" class="slide" />
+        <img src="images/slide3.jpg" class="slide" />
+      </div>
+      <h1 class="slogan">Affidabilità, esperienza e dedizione</h1>
+    </section>
+
+    <section id="about" class="content-section">
+      <h2>Chi siamo</h2>
+      <p>Siamo un’azienda di Prato specializzata nella logistica integrata...</p>
+    </section>
+
+    <section id="services" class="content-section">
+      <h2>Servizi</h2>
+      <ul>
+        <li>Logistica integrata</li>
+        <li>Stoccaggio</li>
+        <li>Logistica trasporti</li>
+        <li>Deposito conto terzi</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="content-section">
+      <h2>Contatti</h2>
+      <p>Email: info@sijsrl.it</p>
+      <p>Telefono: 0553896646</p>
+      <p>Indirizzo: Via Albert Einstein 10/D, Campi Bisenzio</p>
+      <iframe src="https://www.google.com/maps?q=Via+Albert+Einstein+10/D+Campi+Bisenzio&output=embed" width="100%" height="300"></iframe>
+      <img src="images/qr-code.png" alt="QR Code" class="qr" />
+    </section>
   </main>
+
   <footer>
     <p>&copy; 2025 SIJ Trasporti Srl</p>
   </footer>
